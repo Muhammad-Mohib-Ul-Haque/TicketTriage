@@ -1,0 +1,18 @@
+{
+  "_note": "OFFLINE DEMO SAMPLE in the DummyJSON product format. Hand-written for TicketTriage; the live API at https://dummyjson.com/products/1 may return different values.",
+  "id": 1,
+  "title": "Essence Mascara Lash Princess",
+  "description": "A popular mascara known for its volumizing and lengthening effects.",
+  "category": "beauty",
+  "price": 9.99,
+  "discountPercentage": 7.17,
+  "rating": 4.94,
+  "stock": 5,
+  "brand": "Essence",
+  "sku": "RCH45Q1A",
+  "warrantyInformation": "1 month warranty",
+  "shippingInformation": "Ships in 1 month",
+  "availabilityStatus": "Low Stock",
+  "returnPolicy": "30 days return policy",
+  "minimumOrderQuantity": 24
+}

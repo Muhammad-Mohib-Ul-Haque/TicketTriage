@@ -1,0 +1,251 @@
+instruction,category,intent
+i want to cancel my parcel asap,ORDER,cancel_order
+"Hello, the payment did not go through — can you help?",PAYMENT,payment_issue
+Hey how long does delivery take,DELIVERY,delivery_period
+"excuse me, i need to change the size in my purchase?",ORDER,change_order
+urgent: what is the status of my package,ORDER,track_order
+hey update my profile details thanks,ACCOUNT,edit_account
+my account was charged for an order i did not place,PAYMENT,payment_issue
+urgent: i need to change the size in my purchase,ORDER,change_order
+"hello, i need to change my shipping address",SHIPPING,change_shipping_address
+the refund went to an old card on my account,REFUND,track_refund
+"Hello, please stop my order before it ships",ORDER,cancel_order
+Hey i need to change my shipping address please,SHIPPING,change_shipping_address
+"hi, do you offer express shipping asap",DELIVERY,delivery_options
+"Excuse me, is bank transfer an option to pay?",PAYMENT,check_payment_methods
+"hi, i moved, please ship to my new address?",SHIPPING,change_shipping_address
+"Excuse me, i want to delete my profile asap",ACCOUNT,delete_account
+Urgent: update the delivery address for my purchase thanks,SHIPPING,change_shipping_address
+"excuse me, i was charged twice?",PAYMENT,payment_issue
+cancel my order and refund the payment,REFUND,get_refund
+"hello, your service was great asap",FEEDBACK,review
+"hi, how do i change the email on my account — can you help?",ACCOUNT,edit_account
+"Good morning, please refund the damaged item",REFUND,get_refund
+check my package status,ORDER,track_order
+"Good morning, when will my parcel arrive",DELIVERY,delivery_period
+"hello, what payment methods do you accept please",PAYMENT,check_payment_methods
+"hello, what delivery options do you have please",DELIVERY,delivery_options
+"good morning, my refund has not arrived please",REFUND,track_refund
+"excuse me, i want my money back please",REFUND,get_refund
+"excuse me, has my parcel been confirmed yet",ORDER,track_order
+"Hello, how do i buy this item",ORDER,place_order
+payment page crashed while placing my order,PAYMENT,payment_issue
+hey help me make a purchase on the website?,ORDER,place_order
+Hey when will my parcel arrive thanks,DELIVERY,delivery_period
+i paid but my order never arrived,DELIVERY,delivery_period
+"excuse me, are refunds possible on sale items",REFUND,check_refund_policy
+"excuse me, where can i create a user account thanks",ACCOUNT,create_account
+"Hello, the courier is late with my parcel",DELIVERY,delivery_period
+i want to talk to a person asap,CONTACT,contact_human_agent
+update the delivery address for my parcel,SHIPPING,change_shipping_address
+"hello, can i add another item to my order please",ORDER,change_order
+Urgent: update my profile details,ACCOUNT,edit_account
+"Hi, when will i get the refund for my purchase — can you help?",REFUND,track_refund
+"Excuse me, my login is not working anymore please",ACCOUNT,recover_password
+"good morning, has my parcel been confirmed yet — can you help?",ORDER,track_order
+Please stop my purchase before it ships please,ORDER,cancel_order
+Hey where is my refund asap,REFUND,track_refund
+"Excuse me, i want my money back asap",REFUND,get_refund
+"hi, how do i reset my password",ACCOUNT,recover_password
+"hi, my login is not working anymore?",ACCOUNT,recover_password
+hey do you take cash on delivery asap,PAYMENT,check_payment_methods
+urgent: what is the status of my parcel,ORDER,track_order
+urgent: my refund has not arrived?,REFUND,track_refund
+Urgent: can i add another item to my parcel,ORDER,change_order
+hey i want my money back?,REFUND,get_refund
+urgent: can i add another item to my order?,ORDER,change_order
+urgent: how do i change the email on my account — can you help?,ACCOUNT,edit_account
+"excuse me, can i add another item to my package — can you help?",ORDER,change_order
+hey i want to place an package for two shirts thanks,ORDER,place_order
+hey why was my credit card declined,PAYMENT,payment_issue
+urgent: i want to place an package for two shirts?,ORDER,place_order
+"hello, connect me to a human agent — can you help?",CONTACT,contact_human_agent
+hey do you offer express shipping — can you help?,DELIVERY,delivery_options
+"Hi, update my profile details thanks",ACCOUNT,edit_account
+urgent: my refund has not arrived — can you help?,REFUND,track_refund
+hey do you offer express shipping,DELIVERY,delivery_options
+"good morning, what is the status of my parcel thanks",ORDER,track_order
+"Excuse me, help me make a purchase on the website",ORDER,place_order
+Can you deliver to my office — can you help?,DELIVERY,delivery_options
+"hi, i want to leave a review please",FEEDBACK,review
+"Hello, can i get a refund after 30 days?",REFUND,check_refund_policy
+"excuse me, can i add another item to my order — can you help?",ORDER,change_order
+"Hi, what delivery options do you have asap",DELIVERY,delivery_options
+hey please refund the damaged item — can you help?,REFUND,get_refund
+"hi, how long does delivery take asap",DELIVERY,delivery_period
+hey where is my refund thanks,REFUND,track_refund
+"hello, i forgot my password asap",ACCOUNT,recover_password
+"Hello, how long does delivery take",DELIVERY,delivery_period
+"Excuse me, can you help me register a profile?",ACCOUNT,create_account
+i returned the package and want a refund thanks,REFUND,get_refund
+"hello, when will i get the refund for my package thanks",REFUND,track_refund
+urgent: update the delivery address for my order thanks,SHIPPING,change_shipping_address
+hey are refunds possible on sale items,REFUND,check_refund_policy
+"Good morning, update the delivery address for my package — can you help?",SHIPPING,change_shipping_address
+Hey how do i change the email on my account thanks,ACCOUNT,edit_account
+"Hello, i want to cancel my package thanks",ORDER,cancel_order
+where can i create a user account please,ACCOUNT,create_account
+!!! ???,PAYMENT,payment_issue
+"Hello, i need to change the size in my purchase please",ORDER,change_order
+hey i want to cancel my purchase asap,ORDER,cancel_order
+How can i remove my account permanently,ACCOUNT,delete_account
+hey please stop my package before it ships asap,ORDER,cancel_order
+hey is bank transfer an option to pay — can you help?,PAYMENT,check_payment_methods
+"good morning, update the delivery address for my parcel thanks",SHIPPING,change_shipping_address
+"hello, can i add another item to my package",ORDER,change_order
+urgent: how can i remove my account permanently,ACCOUNT,delete_account
+"Hello, do you offer express shipping — can you help?",DELIVERY,delivery_options
+"good morning, has my package been confirmed yet",ORDER,track_order
+urgent: can you help me register a profile please,ACCOUNT,create_account
+"Good morning, i moved, please ship to my new address please",SHIPPING,change_shipping_address
+"Hello, i want to cancel my purchase please",ORDER,cancel_order
+Hey how do i change the email on my account,ACCOUNT,edit_account
+can i pay with paypal asap,PAYMENT,check_payment_methods
+"hello, your service was great please",FEEDBACK,review
+"Hello, connect me to a human agent?",CONTACT,contact_human_agent
+"good morning, my refund has not arrived — can you help?",REFUND,track_refund
+"Excuse me, where is my refund",REFUND,track_refund
+urgent: how do i request a refund for my parcel asap,REFUND,get_refund
+"hello, are refunds possible on sale items please",REFUND,check_refund_policy
+"hello, is bank transfer an option to pay asap",PAYMENT,check_payment_methods
+hey the payment did not go through?,PAYMENT,payment_issue
+hey how long does delivery take please,DELIVERY,delivery_period
+"Good morning, when will i get the refund for my parcel — can you help?",REFUND,track_refund
+Can you deliver to my office please,DELIVERY,delivery_options
+Urgent: i forgot my password?,ACCOUNT,recover_password
+"Good morning, i want to open a new account",ACCOUNT,create_account
+"good morning, how can i remove my account permanently",ACCOUNT,delete_account
+"wrong item delivered, i want my money back",REFUND,get_refund
+please close my account — can you help?,ACCOUNT,delete_account
+"excuse me, what is the status of my parcel — can you help?",ORDER,track_order
+i need to change my shipping address thanks,SHIPPING,change_shipping_address
+"Hello, how do i change the email on my account",ACCOUNT,edit_account
+"hi, how do i sign up for an account?",ACCOUNT,create_account
+hey where is my refund — can you help?,REFUND,track_refund
+change the address on my account for future orders,DELIVERY,change_shipping_address
+"excuse me, has my package been confirmed yet — can you help?",ORDER,track_order
+"good morning, can you deliver to my office — can you help?",DELIVERY,delivery_options
+"excuse me, i cannot log in to my account asap",ACCOUNT,recover_password
+"excuse me, how do i change the email on my account",ACCOUNT,edit_account
+I want to cancel my purchase asap,ORDER,cancel_order
+"good morning, please close my account asap",ACCOUNT,delete_account
+hey can you deliver to my office — can you help?,DELIVERY,delivery_options
+,ORDER,track_order
+"Excuse me, i want to open a new account?",ACCOUNT,create_account
+How can i remove my account permanently asap,ACCOUNT,delete_account
+hey how do i buy this item — can you help?,ORDER,place_order
+"hello, send me the invoice asap",INVOICE,get_invoice
+"good morning, i was charged twice",PAYMENT,payment_issue
+"Excuse me, i need to edit my username",ACCOUNT,edit_account
+how do i reset my password — can you help?,ACCOUNT,recover_password
+hey update my profile details please,ACCOUNT,edit_account
+How can i remove my account permanently — can you help?,ACCOUNT,delete_account
+"excuse me, how do i cancel the parcel i placed yesterday please",ORDER,cancel_order
+"Hello, i want to place an purchase for two shirts",ORDER,place_order
+urgent: i want to open a new account please,ACCOUNT,create_account
+urgent: i want to open a new account?,ACCOUNT,create_account
+"hi, how do i change the email on my account?",ACCOUNT,edit_account
+urgent: connect me to a human agent thanks,CONTACT,contact_human_agent
+"Excuse me, can i pay with paypal — can you help?",PAYMENT,check_payment_methods
+"Good morning, can i get a refund after 30 days",REFUND,check_refund_policy
+"good morning, how do i change the email on my account?",ACCOUNT,edit_account
+"hi, modify the quantity on my package",ORDER,change_order
+"hello, are refunds possible on sale items",REFUND,check_refund_policy
+"good morning, how do i reset my password thanks",ACCOUNT,recover_password
+"Good morning, how do i buy this item asap",ORDER,place_order
+urgent: what delivery options do you have asap,DELIVERY,delivery_options
+"Hi, how do i request a refund for my package asap",REFUND,get_refund
+urgent: is bank transfer an option to pay — can you help?,PAYMENT,check_payment_methods
+help me make a purchase on the website,ORDER,place_order
+hey what payment methods do you accept thanks,PAYMENT,check_payment_methods
+"Hi, the payment did not go through please",PAYMENT,payment_issue
+"Hi, my parcel has not arrived yet?",DELIVERY,delivery_period
+i need to edit my username asap,ACCOUNT,edit_account
+"hello, can i pay with paypal",PAYMENT,check_payment_methods
+"good morning, can you help me register a profile?",ACCOUNT,create_account
+urgent: i need to change the size in my parcel please,ORDER,change_order
+i returned the order and want a refund?,REFUND,get_refund
+i was charged twice,PAYMENT,payment_issue
+how long does delivery take,DELIVERY,delivery_period
+"Excuse me, i cannot log in to my account",ACCOUNT,recover_password
+"Good morning, the payment did not go through",PAYMENT,payment_issue
+"hi, has my order been confirmed yet — can you help?",ORDER,track_order
+I want to delete my profile asap,ACCOUNT,delete_account
+"excuse me, update the delivery address for my order asap",SHIPPING,change_shipping_address
+check my purchase status,ORDER,track_order
+"hello, can you deliver to my office — can you help?",DELIVERY,delivery_options
+can i pay with paypal please,PAYMENT,check_payment_methods
+"hello, what is your refund policy please",REFUND,check_refund_policy
+"Hello, can i get a refund after 30 days thanks",REFUND,check_refund_policy
+"good morning, has my package been confirmed yet thanks",ORDER,track_order
+hey please close my account?,ACCOUNT,delete_account
+"hi, i want to leave a review — can you help?",FEEDBACK,review
+"good morning, how do i cancel the package i placed yesterday",ORDER,cancel_order
+hey i cannot log in to my account?,ACCOUNT,recover_password
+I returned the order and want a refund please,REFUND,get_refund
+"hi, what delivery options do you have thanks",DELIVERY,delivery_options
+"Good morning, i returned the parcel and want a refund — can you help?",REFUND,get_refund
+Where can i create a user account asap,ACCOUNT,create_account
+"excuse me, how do i sign up for an account",ACCOUNT,create_account
+"excuse me, how can i remove my account permanently thanks",ACCOUNT,delete_account
+order shows delivered but i got nothing,DELIVERY,delivery_period
+"hi, what is the status of my order",ORDER,track_order
+Hey my card payment failed,PAYMENT,payment_issue
+"Good morning, can i add another item to my parcel",ORDER,change_order
+"good morning, do you take cash on delivery",PAYMENT,check_payment_methods
+hey the courier is late with my order — can you help?,DELIVERY,delivery_period
+"good morning, the payment did not go through?",PAYMENT,payment_issue
+"excuse me, how do i reset my password — can you help?",ACCOUNT,recover_password
+"Hello, why was my credit card declined — can you help?",PAYMENT,payment_issue
+"Good morning, i want to cancel my order asap",ORDER,cancel_order
+"Hello, why was my credit card declined please",PAYMENT,payment_issue
+"Excuse me, can i add another item to my parcel — can you help?",ORDER,change_order
+"good morning, i moved, please ship to my new address asap",SHIPPING,change_shipping_address
+urgent: i was charged twice,PAYMENT,payment_issue
+"hello, how do i sign up for an account — can you help?",ACCOUNT,create_account
+"hello, the courier is late with my parcel asap",DELIVERY,delivery_period
+"good morning, i want to cancel my parcel?",ORDER,cancel_order
+Urgent: can i get a refund after 30 days asap,REFUND,check_refund_policy
+"hello, how do i reset my password — can you help?",ACCOUNT,recover_password
+Hey help me make a purchase on the website asap,ORDER,place_order
+Hey my card payment failed asap,PAYMENT,payment_issue
+are refunds possible on sale items,REFUND,check_refund_policy
+"hi, help me make a purchase on the website thanks",ORDER,place_order
+urgent: update the delivery address for my package please,SHIPPING,change_shipping_address
+"Hi, what is your refund policy?",REFUND,check_refund_policy
+urgent: where can i download my bill asap,INVOICE,get_invoice
+i was charged a delivery fee twice,PAYMENT,payment_issue
+urgent: send me the invoice?,INVOICE,get_invoice
+"excuse me, i want to place an package for two shirts?",ORDER,place_order
+"excuse me, when will my purchase arrive",DELIVERY,delivery_period
+"hi, please close my account asap",ACCOUNT,delete_account
+urgent: can you deliver to my office,DELIVERY,delivery_options
+urgent: please stop my order before it ships?,ORDER,cancel_order
+"Hi, how do i sign up for an account asap",ACCOUNT,create_account
+"hi, send me the invoice?",INVOICE,get_invoice
+Urgent: where is my refund?,REFUND,track_refund
+"excuse me, my login is not working anymore thanks",ACCOUNT,recover_password
+urgent: help me make a purchase on the website please,ORDER,place_order
+"Excuse me, update the delivery address for my purchase thanks",SHIPPING,change_shipping_address
+"Excuse me, i want to open a new account?",ACCOUNT,create_account
+Hey what is your refund policy thanks,REFUND,check_refund_policy
+Urgent: has my purchase been confirmed yet?,ORDER,track_order
+"Hi, can i pay with paypal asap",PAYMENT,check_payment_methods
+"hello, how do i request a refund for my parcel?",REFUND,get_refund
+is bank transfer an option to pay?,PAYMENT,check_payment_methods
+"good morning, can i get a refund after 30 days thanks",REFUND,check_refund_policy
+"hi, i want to cancel my order?",ORDER,cancel_order
+"hello, how do i request a refund for my package thanks",REFUND,get_refund
+Hey please close my account,ACCOUNT,delete_account
+"hello, how do i reset my password thanks",ACCOUNT,recover_password
+"good morning, the courier is late with my parcel",DELIVERY,delivery_period
+"hi, how can i remove my account permanently asap",ACCOUNT,delete_account
+"excuse me, where is my refund",REFUND,track_refund
+"hi, i want to place an package for two shirts please",ORDER,place_order
+"hello, are refunds possible on sale items — can you help?",REFUND,check_refund_policy
+hey i returned the order and want a refund,REFUND,get_refund
+"Excuse me, i need to change the size in my order",ORDER,change_order
+hey where is my refund?,REFUND,track_refund
+where is my refund,,track_refund
+urgent: the courier is late with my purchase — can you help?,DELIVERY,delivery_period
+i cannot log in to check my order,ACCOUNT,recover_password
